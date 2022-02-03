@@ -1,0 +1,31 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 3fr 9fr;
+	grid-gap: 10px;
+}
+
+.dialog {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+
+.dialogs__title {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.dialog__item {
+
+	margin-bottom: 10px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+
+
+.messages {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+}
